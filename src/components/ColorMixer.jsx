@@ -256,7 +256,9 @@ function ColorMixer() {
               </select>
               <button
                 onClick={applyRgbaBackground}
-                className="relative overflow-hidden sm:px-3 w-full sm:w-[150px] p-3 sm:py-3  rounded-lg cursor-pointer text-white bg-gradient-to-r from-fuchsia-600 via-purple-600 to-blue-500 hover:from-fuchsia-700 hover:to-blue-600 shadow-xl transition-all duration-300 sm:text-sm text-lg  font-bold tracking-wide animate-slide-up"
+                className="relative overflow-hidden sm:px-3 w-full sm:w-[150px] p-3 sm:py-3  rounded-lg cursor-pointe text-white
+                 bg-gradient-to-r from-fuchsia-600 via-purple-600 to-blue-500 hover:from-fuchsia-700 hover:to-blue-600
+                  shadow-xl transition-all duration-300 sm:text-sm text-lg  font-bold tracking-wide animate-slide-up"
               >
                 <span className="relative z-10">Apply RGBA</span>
                 <div className="absolute inset-0 bg-white opacity-10 mix-blend-overlay pointer-events-none"></div>
